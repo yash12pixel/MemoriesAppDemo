@@ -1,5 +1,5 @@
-export const CREATE = 'CREATE';
-export const UPDATE = 'UPDATE';
-export const DELETE = 'DELETE';
-export const FETCH_ALL = 'FETCH_ALL';
-export const LIKE = 'LIKE';
+export const CREATE_POST = "CREATE";
+export const UPDATE_POST = "UPDATE";
+export const DELETE_POST = "DELETE";
+export const FETCH_ALL_POST = "FETCH_ALL";
+export const LIKE_POST = "LIKE";
