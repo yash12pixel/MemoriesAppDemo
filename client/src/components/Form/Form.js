@@ -93,6 +93,11 @@ const Form = ({ currentId, setCurrentId }) => {
         message: "Image file is missing",
       });
     } else {
+      setValidatedObject({
+        ...validatedObject,
+        isWarning: false,
+        message: "",
+      });
       if (currentId === 0) {
         dispatch(createPost(postData));
         clear();
