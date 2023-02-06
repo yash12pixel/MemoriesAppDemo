@@ -180,7 +180,7 @@ const Form = ({ currentId, setCurrentId }) => {
 
         <Button
           variant="contained"
-          color="success"
+          color="error"
           size="medium"
           style={{ margin: "10px 0 0 0" }}
           onClick={clear}

@@ -10,7 +10,7 @@ const Posts = ({ setCurrentId }) => {
   const classes = useStyles();
 
   return !posts.length ? (
-    <CircularProgress />
+    <CircularProgress style={{ color: "#d21919" }} />
   ) : (
     <Grid
       className={classes.container}
